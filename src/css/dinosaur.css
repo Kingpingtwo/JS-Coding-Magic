@@ -13,7 +13,7 @@
     border: 1px solid #ddd;
     overflow: hidden;
   }
-  .container {
+  .container-dino {
     display: flex;
     justify-content: center;
   }

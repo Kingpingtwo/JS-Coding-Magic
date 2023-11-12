@@ -1,3 +1,10 @@
 <section>
-    <div class="line"></div>
+        <head><link rel="stylesheet" href="max-number.css"></head>
+    <body>
+        <h2>Введіть три числа:</h2>
+        <input type="text" pattern="[0-9]*" inputmode="numeric" id="number1" oninput="correctInput('number1')" maxlength="4">
+        <input type="text" pattern="[0-9]*" inputmode="numeric" id="number2" oninput="correctInput('number2')" maxlength="4">
+        <input type="text" pattern="[0-9]*" inputmode="numeric" id="number3" oninput="correctInput('number3')" maxlength="4">
+        <h3>Найбільше число: <span id="maxNumber">-</span></h3>
+        <script src="max-number.js"></script>
 </section>

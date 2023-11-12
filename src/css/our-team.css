@@ -1,5 +1,5 @@
 
-.slider-container {
+.slider-contain {
     position: relative;
     width: 400px;
     height: 400px;
@@ -25,7 +25,7 @@
     max-height: 80%;
 }
 
-.controls {
+.control {
     position: absolute;
     top: 80px;
     width: 100%;
